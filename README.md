@@ -2,8 +2,10 @@
 
 This notebook shows how to fine-tune the multilingual language model [XLM-RoBERTa](https://arxiv.org/pdf/1911.02116.pdf) for metaphor detection on a token-level using [Huggingface](https://huggingface.co/tasks/token-classification).
 
-# Dataset
+# Usage
+You can either train your own model simply running the provided notebook or try out the already trained model here: (link will be provided)
 
+# Dataset
 The dataset the model is trained on is the [VU Amsterdam Metaphor Corpus](http://www.vismet.org/metcor/documentation/home.html) that was annotated on a word-level following the metaphor identification protocol. The training corpus is restricted to English, however, XLM-R shows decent zero-shot performances when tested on other languages. 
 
 # Results
