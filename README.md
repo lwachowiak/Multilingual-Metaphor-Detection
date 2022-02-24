@@ -4,7 +4,7 @@ This notebook shows how to fine-tune the multilingual language model [XLM-RoBERT
 
 # Dataset
 
-The dataset the model is trained on is the [VU Amsterdam Metaphor Corpus](http://www.vismet.org/metcor/documentation/home.html) that was annotated on a word-level following the metaphor identification protocol.
+The dataset the model is trained on is the [VU Amsterdam Metaphor Corpus](http://www.vismet.org/metcor/documentation/home.html) that was annotated on a word-level following the metaphor identification protocol. The training corpus is restricted to English, however, XLM-R shows decent zero-shot performances when tested on other languages. 
 
 # Results
 Following the evaluation criteria from the [2020 Second Shared Task on Metaphor detection](https://competitions.codalab.org/competitions/22188#results) our model achieves a F1-Score of 0.76 for the metaphor-class when training XLM-R<sub>Base</sub> and 0.77 when training XLM-R<sub>Large.</sub>. 
