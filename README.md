@@ -2,6 +2,15 @@
 
 This notebook shows how to fine-tune the multilingual language model [XLM-RoBERTa](https://arxiv.org/pdf/1911.02116.pdf) for metaphor detection on a token-level using [Huggingface](https://huggingface.co/tasks/token-classification).
 
+# Reference:
+
+We describe model and training details in our publication:
+
+Wachowiak, L., Gromann, D. & Xu, C. (2022) Drum Up SUPPORT: Systematic Analysis of Image-Schematic Conceptual Metaphors. In EMNLP FigLang Workshop.
+
+PDF (forthcoming)
+
+
 # Usage
 You can either train your own model simply running the provided notebook or try out the already trained model [here](https://huggingface.co/lwachowiak/Metaphor-Detection-XLMR)
 
