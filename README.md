@@ -8,7 +8,7 @@ We describe model and training details in our publication:
 
 Wachowiak, L., Gromann, D. & Xu, C. (2022) Drum Up SUPPORT: Systematic Analysis of Image-Schematic Conceptual Metaphors. In EMNLP FigLang Workshop.
 
-[PDF](https://aclanthology.org/2022.flp-1.7/)
+[PDF](https://aclanthology.org/2022.flp-1.7/), with further experiment code [here](https://github.com/lwachowiak/ISCMs/tree/main)
 
 
 # Usage
