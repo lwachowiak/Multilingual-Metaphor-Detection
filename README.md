@@ -2,7 +2,7 @@
 
 This notebook shows how to fine-tune the multilingual language model [XLM-RoBERTa](https://arxiv.org/pdf/1911.02116.pdf) for metaphor detection on a token-level using [Huggingface](https://huggingface.co/tasks/token-classification).
 
-# Reference:
+# Reference
 
 We describe model and training details in our publication:
 
