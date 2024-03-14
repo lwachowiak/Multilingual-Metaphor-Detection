@@ -1,4 +1,4 @@
-# Multilingual-Metaphor-Detection
+# Multilingual Metaphor Detection
 
 This notebook shows how to fine-tune the multilingual language model [XLM-RoBERTa](https://arxiv.org/pdf/1911.02116.pdf) for metaphor detection on a token-level using [Huggingface](https://huggingface.co/tasks/token-classification).
 
@@ -7,6 +7,21 @@ This notebook shows how to fine-tune the multilingual language model [XLM-RoBERT
 We describe model and training details in our publication:
 
 Wachowiak, L., Gromann, D. & Xu, C. (2022) Drum Up SUPPORT: Systematic Analysis of Image-Schematic Conceptual Metaphors. In EMNLP FigLang Workshop.
+
+```
+@inproceedings{wachowiak-etal-2022-drum,
+    title = "Drum Up {SUPPORT}: Systematic Analysis of Image-Schematic Conceptual Metaphors",
+    author = "Wachowiak, Lennart  and
+      Gromann, Dagmar  and
+      Xu, Chao",
+    booktitle = "Proceedings of the 3rd Workshop on Figurative Language Processing (FLP)",
+    month = dec,
+    year = "2022",
+    publisher = "Association for Computational Linguistics",
+    doi = "10.18653/v1/2022.flp-1.7",
+    pages = "44--53",
+}
+```
 
 [PDF](https://aclanthology.org/2022.flp-1.7/), with further experiment code [here](https://github.com/lwachowiak/ISCMs/tree/main)
 
