@@ -4,7 +4,7 @@ This notebook shows how to fine-tune the multilingual language model [XLM-RoBERT
 
 # Reference
 
-We describe model and training details in our publication:
+We describe the model and training details in our publication:
 
 Wachowiak, L., Gromann, D. & Xu, C. (2022) Drum Up SUPPORT: Systematic Analysis of Image-Schematic Conceptual Metaphors. In EMNLP FigLang Workshop.
 
@@ -23,16 +23,16 @@ Wachowiak, L., Gromann, D. & Xu, C. (2022) Drum Up SUPPORT: Systematic Analysis 
 }
 ```
 
-[PDF](https://aclanthology.org/2022.flp-1.7/), with further experiment code [here](https://github.com/lwachowiak/ISCMs/tree/main)
+Open access [publication](https://aclanthology.org/2022.flp-1.7/), with additional experiment [code](https://github.com/lwachowiak/ISCMs/tree/main). Find further, related research [here](https://lwachowiak.github.io/project/cognitivelinguistics/)
 
 
 # Usage
-You can either train your own model simply running the provided notebook or try out the already trained model [here](https://huggingface.co/lwachowiak/Metaphor-Detection-XLMR)
+You can either train your own model by simply running the provided notebook or try out the already trained model [here](https://huggingface.co/lwachowiak/Metaphor-Detection-XLMR)
 
 # Dataset
 The dataset the model is trained on is the [VU Amsterdam Metaphor Corpus](http://www.vismet.org/metcor/documentation/home.html) that was annotated on a word-level following the metaphor identification protocol. The training corpus is restricted to English, however, XLM-R shows decent zero-shot performances when tested on other languages. 
 
 # Results
-Following the evaluation criteria from the [2020 Second Shared Task on Metaphor detection](https://competitions.codalab.org/competitions/22188#results) our model achieves a F1-Score of 0.76 for the metaphor-class when training XLM-R<sub>Base</sub> and 0.77 when training XLM-R<sub>Large.</sub>. 
+Following the evaluation criteria from the [2020 Second Shared Task on Metaphor detection](https://competitions.codalab.org/competitions/22188#results), our model achieves an F1-score of 0.76 for the metaphor-class when training XLM-R<sub>Base</sub> and 0.77 when training XLM-R<sub>Large</sub>. 
 
-We train for 8 epochs loading the model with the best evaluation performance at the end and using a learning rate of 2e-5. From the allocated training data 10% are utilized for validation while the final test set is being kept seperate and only used for the final evaluation. 
+We train for 8 epochs, loading the model with the best evaluation performance at the end and using a learning rate of 2e-5. From the allocated training data, 10% is utilized for validation. The test set is kept separate and only used for the final evaluation. 
