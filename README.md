@@ -4,7 +4,7 @@ This notebook shows how to fine-tune the multilingual language model [XLM-RoBERT
 
 # Reference
 
-We describe the model and training details in our publication:
+We describe the model and training details in our open-access [publication](https://aclanthology.org/2022.flp-1.7/):
 
 Wachowiak, L., Gromann, D. & Xu, C. (2022) Drum Up SUPPORT: Systematic Analysis of Image-Schematic Conceptual Metaphors. In EMNLP FigLang Workshop.
 
@@ -23,7 +23,8 @@ Wachowiak, L., Gromann, D. & Xu, C. (2022) Drum Up SUPPORT: Systematic Analysis 
 }
 ```
 
-Open access [publication](https://aclanthology.org/2022.flp-1.7/), with additional experiment [code](https://github.com/lwachowiak/ISCMs/tree/main). Find further, related research [here](https://lwachowiak.github.io/project/cognitivelinguistics/)
+- additional experiment [code](https://github.com/lwachowiak/ISCMs/tree/main)
+- further, related [research](https://lwachowiak.github.io/project/cognitivelinguistics/)
 
 
 # Usage
